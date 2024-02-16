@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="error 414">
+    <style>
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.login-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.input-container {
+    margin-bottom: 16px;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+label {
+    color: #000000;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #fcfcfc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #008000;
+    color: white;
+    padding: 12px;
+    margin-top: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: absolute;
+    bottom: auto;
+}
+
+.text-button {
+            cursor: pointer;
+        }
+
+.text-button:hover {
+            opacity: 0.8;
+        }
+
+    </style>
+    <title>Login Form</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.Webp" alt="">
+        <nav>
+            <ul>
+                <il href="blog.html" class="text-button">Blog de momo</il>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+<div class="login-container">
+    <form action="file:///Users/berrichi/Documents/projet/test/access/blog.html" method="post" class="login-form">
+
+        <h1>Login</h1>
+
+        <div class="imgcontainer">
+            <img src="img/logo.png" alt="Avatar" class="avatar">
+          </div>
+
+        <div class="input-container">
+            <label for="email"><b>Email</b></label>
+            <input type="email" id="email" placeholder="Enter Email" name="email" required autofocus autocomplete="username">
+        </div>
+
+        <div class="input-container">
+            <label for="password"><b>Password</b></label>
+            <input type="password" id="password" placeholder="Enter Password" name="password" required autocomplete="current-password">
+        </div>
+
+        <button type="submit">Login</button>
+
+    </form>
+</div>
+
+</main>
+
+<footer>
+    <p class="center">&copy;Copyright momo</p>
+</footer>
+
+</body>
